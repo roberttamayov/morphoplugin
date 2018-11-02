@@ -1,0 +1,32 @@
+{
+  "name": "entelplugin",
+  "version": "0.0.1",
+  "description": "An Android Cordova plugin that allows users to read from a morpho device.",
+  "cordova": {
+    "id": "entelplugin",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diogo-martins-wingman/entel-plugin.git"
+  },
+  "keywords": [
+    "Entel",
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "author": "diogo-martins-wingman <diogo.martings@wingman.pt>",
+  "license": "Apache 2.0",
+  "bugs": {
+    "url": "https://github.com/diogo-martins-wingman/entel-plugin/issues"
+  },
+  "homepage": "https://github.com/diogo-martins-wingman/entel-plugin"
+}
