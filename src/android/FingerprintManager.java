@@ -209,9 +209,8 @@ public class FingerprintManager {
 							int height = morphoImage.getMorphoImageHeader().getNbRow();
 							byte[] bytes = morphoImage.getImage();
 							byte[] rawCompress = processImage(bytes,width,height);
-							String imageData = "Hello Word";
 							
-							fingerprintManagerCallback.onBitmapUpdate(width, height, encode(rawCompress),imageData);
+							fingerprintManagerCallback.onBitmapUpdate(width, height, encode(rawCompress));
 							
 						} catch (Exception e) {
 							fingerprintManagerCallback.onFingerprintStatusUpdate(FingerprintStatus.STOPED);
